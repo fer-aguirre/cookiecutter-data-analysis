@@ -1,6 +1,6 @@
 # Cookiecutter Data Journalism 🍪
 
-My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based on [data-journalism](https://github.com/DataCritica/cookiecutter-data-journalism) template for python by [Data Crítica](https://github.com/DataCritica) and adapted with new features.
+My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based on [data-journalism](https://github.com/DataCritica/cookiecutter-data-journalism) template.
 
 ---
 
@@ -37,7 +37,7 @@ My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based o
 |   |   |- export.py       # Module to save exports
 |   |   |- __init__.py
 |   |  
-|   |- utils               # Functions to make common patterns shorter and easier.
+|   |- utils               # Functions to make common patterns shorter and easier
 |       |- paths.py        # Module to generate relative paths
 |       |- __init__.py
 |
