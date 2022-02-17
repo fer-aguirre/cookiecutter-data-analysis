@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+plotly = "*"
+
+[dev-packages]
+ipykernel = "*"
+setuptools = "*"
+pyprojroot = "*"
+pathlib = "*"
+
+[requires]
+python_version = "*"
