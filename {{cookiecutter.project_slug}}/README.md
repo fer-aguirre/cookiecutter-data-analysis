@@ -27,7 +27,7 @@ Created by: {{cookiecutter.project_author}}
 |   |- tables              # Generated pivot tables to analyze data
 |   |- figures             # Generated graphics, maps, etc. to be used in reporting
 | 
-|- project                 # Python package
+|- {{cookiecutter.project_slug}}    
 |   |- __init__.py
 |   |- data                # Functions to manipulate data
 |   |   |- load.py         # Module to load data
