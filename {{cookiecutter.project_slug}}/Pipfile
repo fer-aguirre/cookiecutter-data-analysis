@@ -4,15 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+ipykernel = "*"
+setuptools = "*"
+pyprojroot = "*"
+pathlib = "*"
 pandas = "*"
 numpy = "*"
 plotly = "*"
 
 [dev-packages]
-ipykernel = "*"
-setuptools = "*"
-pyprojroot = "*"
-pathlib = "*"
 
 [requires]
 python_version = "*"
