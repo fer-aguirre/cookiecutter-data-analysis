@@ -38,7 +38,8 @@ for dir_type in [
         ["data", "processed"],
         ["outputs"],
         ["outputs", "figures"],
-        ["outputs", "tables"]
+        ["outputs", "tables"],
+        ["assets"]
     ]:
     dir_var = '_'.join(dir_type) + "_dir"
     exec(f"{dir_var} = make_dir_function({dir_type})")
