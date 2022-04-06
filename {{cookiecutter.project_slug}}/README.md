@@ -1,8 +1,6 @@
 # {{cookiecutter.project_name}}
 {{cookiecutter.project_description}}
 
-Created by: {{cookiecutter.project_author}}
-
 ## Directory Structure
 ---
 
