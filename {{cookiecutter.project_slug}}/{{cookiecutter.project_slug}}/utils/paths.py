@@ -9,7 +9,7 @@ from typing import (
 def make_dir_function(
     dir_name: Union[str, Iterable[str]]
 ) -> Callable[..., Path]:
-    """Generate a fucntion that converts a string or iterable of strings into
+    """Generate a function that converts a string or iterable of strings into
     a path relative to the project directory.
     Args:
         dirname: Name of the subdirectories to extend the path of the main
