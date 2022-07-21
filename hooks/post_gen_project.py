@@ -12,7 +12,7 @@ print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
 os.system("pipenv install")
 os.system("pipenv sync")
 os.system("python3 setup.py install")
-os.system("pipenv install -e .")
+os.system("pipenv install --editable .")
 
 # Initialize git
 print(f"{MESSAGE_COLOR}Initializing a git repository...{RESET_ALL}")
