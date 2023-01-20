@@ -10,7 +10,6 @@ pyprojroot = "*"
 pathlib = "*"
 pandas = "*"
 numpy = "*"
-plotly = "*"
 
 [dev-packages]
 
