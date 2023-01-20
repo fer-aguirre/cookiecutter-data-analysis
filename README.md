@@ -1,4 +1,4 @@
-# Cookiecutter Data Journalism 🍪
+# Cookiecutter Data Analysis 🍪
 
 My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based on [data-journalism](https://github.com/DataCritica/cookiecutter-data-journalism) template.
 
