@@ -1,9 +1,9 @@
 # {{cookiecutter.project_name}}
 {{cookiecutter.project_description}}
 
-## Directory Structure
----
+Created by: {{cookiecutter.project_author}}
 
+---
 ## Directory Structure
 ```
 |- .gitignore              # Customized .gitignore for python projects
@@ -19,7 +19,6 @@
 |- docs                    # Explanatory materials
 |  |- references           # Papers, manuals, articles, etc.
 |  |- data-dictionary.md   # Information about the data
-|  |- explore-data.md      # Questions to explore the data
 |
 |- notebooks               # Jupyter notebooks
 |  |- 0.0-process.ipynb    # Data processing (fixing column types, data cleansing, etc.)
@@ -46,10 +45,6 @@
 |- setup.py                # Import project as a python module
 |
 |- Pipfile                 # Project dependencies
-|
-|- index.html              # HTML template for report analysis
-|
-|- styles.css              # Styles for index.html
 ```
 ---
 
@@ -59,4 +54,4 @@ This project is released under [{{ cookiecutter.project_license }}](/LICENSE).
 
 ---
 
-This repository was generated with [cookiecutter](https://github.com/cookiecutter/cookiecutter) using a [data-journalism](https://github.com/DataCritica/cookiecutter-data-journalism) template for python.
+This repository was generated with [cookiecutter](https://github.com/cookiecutter/cookiecutter).
