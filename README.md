@@ -19,7 +19,6 @@ My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based o
 |- docs                    # Explanatory materials
 |  |- references           # Papers, manuals, articles, etc.
 |  |- data-dictionary.md   # Information about the data
-|  |- explore-data.md      # Questions to explore the data
 |
 |- notebooks               # Jupyter notebooks
 |  |- 0.0-process.ipynb    # Data processing (fixing column types, data cleansing, etc.)
@@ -46,9 +45,5 @@ My personal [cookiecutter](https://github.com/cookiecutter/cookiecutter) based o
 |- setup.py                # Import project as a python module
 |
 |- Pipfile                 # Project dependencies
-|
-|- index.html              # HTML template for report analysis
-|
-|- styles.css              # Styles for index.html
 ```
 ---
