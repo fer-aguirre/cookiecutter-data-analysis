@@ -10,6 +10,7 @@ pyprojroot = "*"
 pathlib = "*"
 pandas = "*"
 numpy = "*"
+requests = "*"
 
 [dev-packages]
 
