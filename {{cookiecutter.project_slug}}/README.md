@@ -42,6 +42,8 @@ Created by: {{cookiecutter.project_author}}
 |     |- paths.py          # Module to generate relative paths
 |     |- __init__.py
 |
+|- scripts                 # Python files
+|
 |- setup.py                # Import project as a python module
 |
 |- Pipfile                 # Project dependencies
