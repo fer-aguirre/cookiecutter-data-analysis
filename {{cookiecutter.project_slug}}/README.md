@@ -6,7 +6,11 @@ Created by: {{cookiecutter.project_author}}
 ---
 ## Directory Structure
 ```
+┬
 |- .gitignore              # Customized .gitignore for python projects
+|- config.ini              # Configuration file
+|- setup.py                # Import project as a python module
+|- Pipfile                 # Project dependencies
 |- LICENSE                 # Project's license
 |- README.md               # Top-level README for this project
 |
@@ -16,9 +20,7 @@ Created by: {{cookiecutter.project_author}}
 |  |- processed            # Cleaned data
 |  |- raw                  # Original data
 |
-|- docs                    # Explanatory materials
-|  |- references           # Papers, manuals, articles, etc.
-|  |- data-dictionary.md   # Information about the data
+|- docs                    # Quarto files
 |
 |- notebooks               # Jupyter notebooks
 |  |- 0.0-process.ipynb    # Data processing (fixing column types, data cleansing, etc.)
@@ -42,11 +44,15 @@ Created by: {{cookiecutter.project_author}}
 |     |- paths.py          # Module to generate relative paths
 |     |- __init__.py
 |
+|- references              # Explanatory materials
+|
 |- scripts                 # Python files
 |
-|- setup.py                # Import project as a python module
-|
-|- Pipfile                 # Project dependencies
+|- website                 # Quarto files
+|  |- pages                # Multi-page website
+|  |- _quarto.yml          # Project configuration file
+|  |- index.qmd            # Home page
+┴
 ```
 ---
 
