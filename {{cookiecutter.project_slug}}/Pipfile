@@ -11,6 +11,9 @@ pathlib = "*"
 pandas = "*"
 numpy = "*"
 requests = "*"
+plotly = "*"
+nbformat = "*"
+openpyxl = "*"
 
 [dev-packages]
 
