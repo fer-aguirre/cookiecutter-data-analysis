@@ -131,3 +131,6 @@ cython_debug/
 
 # Directories
 data/
+
+# Secret files
+config.ini
