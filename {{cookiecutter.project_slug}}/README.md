@@ -53,6 +53,7 @@ Created by: {{cookiecutter.project_author}}
 |  |- _quarto.yml          # Project configuration file
 |  |- index.qmd            # Home page
 ┴
+
 ```
 ---
 
