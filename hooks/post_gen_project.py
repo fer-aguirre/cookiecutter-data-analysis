@@ -9,7 +9,7 @@ os.system("pip install pipenv")
 
 # Install virtual environment and synchronize packages
 print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
-os.system("pipenv install --python 3.7")
+os.system("pipenv install --python 3.8")
 os.system("pipenv sync")
 os.system("pipenv update setuptools")
 os.system("python setup.py install")
