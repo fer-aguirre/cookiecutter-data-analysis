@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cookiecutter_data_analysis_extensive"
+version = "0.1.0"
+description = "A cookiecutter template for data analysis projects using Python"
+authors = ["Fer Aguirre"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cookiecutter = "^1.7.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
